@@ -16,5 +16,5 @@ function fibsRec(num) {
   console.log(fibsRec(6));
   console.log(fibsRec(7));
   console.log(fibsRec(8));
-  console.log(fibsRec(-1))
-  console.log(fibsRec("h3h3"))
+  console.log(fibsRec(-1));
+  console.log(fibsRec("h3h3"));

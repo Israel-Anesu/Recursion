@@ -34,5 +34,4 @@ function mergeSort(array) {
     return merge(firstHalf, secondHalf);
   }
 }
-
 console.log(mergeSort(arr))
