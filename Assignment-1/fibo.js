@@ -3,11 +3,11 @@ function fibs(num) {
   
     for(let i=0; i<num; i++){
       if (i === 0 || i === 1) {
-        arr.push(i)
+        arr.push(i);
       } else if (i > 1) {
-        arr.push(arr[i - 2] + arr[i - 1])
+        arr.push(arr[i - 2] + arr[i - 1]);
       } else {
-        console.log("Please insert a positive number")
+        console.log("Please insert a positive number");
       }
     }
     console.log(arr);

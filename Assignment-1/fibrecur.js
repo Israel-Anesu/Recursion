@@ -9,7 +9,7 @@ function fibsRec(num) {
         return [...fibsRec(num-1), fibsRec(num - 1)[num - 2] + fibsRec(num-1)[num - 3]]
     }
   }
-  
+    
   console.log(fibsRec(3));
   console.log(fibsRec(4));
   console.log(fibsRec(5));
