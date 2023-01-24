@@ -1,4 +1,4 @@
-arr = [1, 4, 1001, 17, 3, 7, 107, 38, 15, 17, 3, 7, 1, 73, 15]
+arr = [1, 4, 1001, 17, 3, 9, 107, 38, 14, 17, 3, 7, 1, 76, 19]
 
 function merge(array1, array2) {
   const len1 = array1.length;
@@ -34,4 +34,4 @@ function mergeSort(array) {
     return merge(firstHalf, secondHalf);
   }
 }
-console.log(mergeSort(arr))
+console.log(mergeSort(arr));
